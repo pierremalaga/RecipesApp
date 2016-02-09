@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">RecipesApp</string>
+
+    <string name="tradicional">TRADICIONAL</string>
+    <string name="microondas">MICROONDAS</string>
+    <string name="thermomix">THERMOMIX</string>
+    <string name="ollaRapida">OLLA RÁPIDA</string>
+
+    <string name="difBaja">BAJA</string>
+    <string name="difMedia">MEDIA</string>
+    <string name="difAlta">ALTA</string>
+
+    <string name="albondigas">Albóndigas</string>
+    <string name="bombas">Bombas</string>
+    <string name="arrozChaufa">Arroz Chaufa</string>
+    <string name="tallarinesPesto">Tallarines al Pesto</string>
+    <string name="papaHuanca">Papa a la huancaína</string>
+
+    <string name="recAlbondigas">Albóndigas, Vino, Calabacín, Tomate Triturado, etc</string>
+    <string name="recBombas">Patatas, Pan Rallado, Bistec, Huevo, etc</string>
+    <string name="recArrozChaufa">Arroz, huevo, Chuletas de Cerdo, Cebolla Tierna, Salsa de Soja, etc</string>
+    <string name="recTallarinesPesto">Tallarines, Albahaca, Aceite, Queso, Bistec, etc</string>
+    <string name="recPapaHuanca">Patatas, Queso, Ají Amarillo, Aceite, etc</string>
+
+    <string-array name="category">
+        <item>@string/tradicional</item>
+        <item>@string/microondas</item>
+        <item>@string/thermomix</item>
+        <item>@string/ollaRapida</item>
+    </string-array>
+
+    <string-array name="dificulty">
+        <item>@string/difBaja</item>
+        <item>@string/difMedia</item>
+        <item>@string/difAlta</item>
+    </string-array>
+
+    <string-array name="recipeTitles">
+        <item>@string/albondigas</item>
+        <item>@string/bombas</item>
+        <item>@string/arrozChaufa</item>
+        <item>@string/tallarinesPesto</item>
+        <item>@string/papaHuanca</item>
+    </string-array>
+
+    <string-array name="recipeTime">
+        <item>60</item>
+        <item>45</item>
+        <item>30</item>
+        <item>45</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="ingredients">
+        <item>@string/recAlbondigas</item>
+        <item>@string/recBombas</item>
+        <item>@string/recArrozChaufa</item>
+        <item>@string/recTallarinesPesto</item>
+        <item>@string/recPapaHuanca</item>
+    </string-array>
+
+    <string-array name="imageNames">
+        <item>ic_albondigas</item>
+        <item>ic_bombas</item>
+        <item>ic_arrozChaufa</item>
+        <item>ic_tallarinesPesto</item>
+        <item>ic_papaHuanca</item>
+    </string-array>
+</resources>
