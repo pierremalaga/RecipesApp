@@ -6,7 +6,7 @@
     <string name="thermomix">THERMOMIX</string>
     <string name="ollaRapida">OLLA RÁPIDA</string>
 
-    <string name="difBaja">BAJA</string>
+    <!--<string name="difBaja">BAJA</string>
     <string name="difMedia">MEDIA</string>
     <string name="difAlta">ALTA</string>
 
@@ -14,56 +14,106 @@
     <string name="bombas">Bombas</string>
     <string name="arrozChaufa">Arroz Chaufa</string>
     <string name="tallarinesPesto">Tallarines al Pesto</string>
-    <string name="papaHuanca">Papa a la huancaína</string>
+    <string name="papaHuanca">Papa a la huancaína</string>-->
 
-    <string name="recAlbondigas">Albóndigas, Vino, Calabacín, Tomate Triturado, etc</string>
+    <!--<string name="recAlbondigas">Albóndigas, Vino, Calabacín, Tomate Triturado, etc</string>
     <string name="recBombas">Patatas, Pan Rallado, Bistec, Huevo, etc</string>
     <string name="recArrozChaufa">Arroz, huevo, Chuletas de Cerdo, Cebolla Tierna, Salsa de Soja, etc</string>
     <string name="recTallarinesPesto">Tallarines, Albahaca, Aceite, Queso, Bistec, etc</string>
-    <string name="recPapaHuanca">Patatas, Queso, Ají Amarillo, Aceite, etc</string>
+    <string name="recPapaHuanca">Patatas, Queso, Ají Amarillo, Aceite, etc</string>-->
 
-    <string-array name="category">
-        <item>@string/tradicional</item>
-        <item>@string/microondas</item>
-        <item>@string/thermomix</item>
-        <item>@string/ollaRapida</item>
+
+    <!--TRADICIONAL-->
+    <string-array name="titleRecipesTraditional">
+        <item>Albóndigas</item>
+        <item>Bombas</item>
     </string-array>
-
-    <string-array name="dificulty">
-        <item>@string/difBaja</item>
-        <item>@string/difMedia</item>
-        <item>@string/difAlta</item>
+    <string-array name="difficultyRecipesTraditional">
+        <item>Media</item>
+        <item>Alta</item>
     </string-array>
-
-    <string-array name="recipeTitles">
-        <item>@string/albondigas</item>
-        <item>@string/bombas</item>
-        <item>@string/arrozChaufa</item>
-        <item>@string/tallarinesPesto</item>
-        <item>@string/papaHuanca</item>
+    <string-array name="timeRecipesTraditional">
+        <item>45min</item>
+        <item>60min</item>
     </string-array>
-
-    <string-array name="recipeTime">
-        <item>60</item>
-        <item>45</item>
-        <item>30</item>
-        <item>45</item>
-        <item>30</item>
+    <string-array name="ingredientsRecipesTraditional">
+        <item>Albóndigas, Vino, Calabacín, Tomate Triturado, etc</item>
+        <item>Patatas, Pan Rallado, Bistec, Huevo, etc</item>
     </string-array>
-
-    <string-array name="ingredients">
-        <item>@string/recAlbondigas</item>
-        <item>@string/recBombas</item>
-        <item>@string/recArrozChaufa</item>
-        <item>@string/recTallarinesPesto</item>
-        <item>@string/recPapaHuanca</item>
-    </string-array>
-
-    <string-array name="imageNames">
+    <string-array name="imagesRecipesTraditional">
         <item>ic_albondigas</item>
         <item>ic_bombas</item>
-        <item>ic_arrozChaufa</item>
-        <item>ic_tallarinesPesto</item>
-        <item>ic_papaHuanca</item>
     </string-array>
+
+
+    <!--Microondas-->
+    <string-array name="titleRecipesMicroondas">
+        <item>Arroz Chaufa</item>
+    </string-array>
+    <string-array name="difficultyRecipesMicroondas">
+        <item>Baja</item>
+    </string-array>
+    <string-array name="timeRecipesMicroondas">
+        <item>30min</item>
+    </string-array>
+    <string-array name="ingredientsRecipesMicroondas">
+        <item>Arroz, huevo, Chuletas de Cerdo, Cebolla Tierna, Salsa de Soja, etc;</item>
+    </string-array>
+    <string-array name="imagesRecipesMicroondas">
+        <item>ic_ArrozChaufa</item>
+    </string-array>
+
+
+    <!--ThermoMix-->
+    <string-array name="titleRecipesThermomix">
+        <item>Papa a la huancaína</item>
+        <item>Bombas</item>
+    </string-array>
+    <string-array name="difficultyRecipesThermomix">
+        <item>Baja</item>
+        <item>Alta</item>
+    </string-array>
+    <string-array name="timeRecipesThermomix">
+        <item>15min</item>
+        <item>60min</item>
+    </string-array>
+    <string-array name="ingredientsRecipesThermomix">
+        <item>Patatas, Queso, Ají Amarillo, Aceite, etc;</item>
+        <item>Patatas, Pan Rallado, Carne Picada, Huevo, etc</item>
+    </string-array>
+    <string-array name="imagesRecipesThermomix">
+        <item>ic_papaHuanca</item>
+        <item>ic_bombas</item>
+    </string-array>
+
+
+    <!--Olla Rápida-->
+    <string-array name="titleRecipesOllaRapida">
+        <item>Albóndigas</item>
+        <item>Tallarines al Pesto;</item>
+    </string-array>
+    <string-array name="difficultyRecipesOllaRapida">
+        <item>Media</item>
+        <item>Media</item>
+    </string-array>
+    <string-array name="timeRecipesOllaRapida">
+        <item>45min</item>
+        <item>30min</item>
+    </string-array>
+    <string-array name="ingredientsRecipesOllaRapida">
+        <item>Albóndigas, Vino, Calabacín, Tomate Triturado, etc</item>
+        <item>Tallarines, Albahaca, Aceite, Queso, Bistec, etc;</item>
+    </string-array>
+    <string-array name="imagesRecipesOllaRapida">
+        <item>ic_albondigas</item>
+        <item>ic_tallarinesPesto</item>
+    </string-array>
+
+    <!--<string-array name="recipes">
+        <item>Albondigas;Tradicional;Media;Albóndigas, Vino, Calabacín, Tomate Triturado, etc;45;ic_albondigas</item>
+        <item>Bombas;Tradicional;Alta;Patatas, Pan Rallado, Bistec, Huevo, etc;60;ic_bombas</item>
+        <item>Arroz Chaufa;Microondas;Baja;Arroz, huevo, Chuletas de Cerdo, Cebolla Tierna, Salsa de Soja, etc;30;ic_ArrozChaufa</item>
+        <item>Tallarines al Pesto;Olla Rápida;Media;Tallarines, Albahaca, Aceite, Queso, Bistec, etc;30;ic_tallarinesPesto</item>
+        <item>Papa a la huancaína;Thermomix;Baja;Patatas, Queso, Ají Amarillo, Aceite, etc;15;ic_papaHuanca</item>
+    </string-array>-->
 </resources>

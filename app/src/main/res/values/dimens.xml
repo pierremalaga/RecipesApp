@@ -8,4 +8,10 @@
     <dimen name="marginBetweenButtons">10dp</dimen>
 
     <dimen name="widthButtons">120dp</dimen>
+    <dimen name="listHeight">72dp</dimen>
+    <dimen name="listPadding">8dp</dimen>
+    <dimen name="detailImageSize">50dp</dimen>
+    <dimen name="titleListSize">16sp</dimen>
+    <dimen name="timeListSize">12sp</dimen>
+    <dimen name="dividerListHeight">2dp</dimen>
 </resources>
